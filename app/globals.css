@@ -7,12 +7,7 @@
   font-family: "Cedarville Cursive", cursive;
 }
 .Welcome-text {
-  background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.4),
-      rgba(255, 255, 255, 0.4)
-    ),
-    linear-gradient(90.01deg, #e59cff 0.01%, #ba9cff 50.01%, #9cb2ff 100%);
+  background: linear-gradient(to right, #F5F5F5, #D9D9D9, #808080);
   background-blend-mode: normal, screen;
   -webkit-background-clip: text;
   background-clip: text;
@@ -37,20 +32,21 @@
 .button-primary {
   background: linear-gradient(
       180deg,
-      rgba(60, 8, 126, 0) 0%,
-      rgba(60, 8, 126, 0.32) 100%
+      rgba(169, 169, 169, 0) 0%,
+      rgba(169, 169, 169, 0.32) 100%
     ),
-    rgba(113, 47, 255, 0.12);
-  box-shadow: inset 0 0 12px #bf97ff3d;
+    rgba(169, 169, 169, 0.12);
+  box-shadow: inset 0 0 12px #a9a9a93d;
 }
+
 .button-primary:hover {
   background: linear-gradient(
       180deg,
-      rgba(60, 8, 126, 0) 0%,
-      rgba(60, 8, 126, 0.42) 100%
+      rgba(169, 169, 169, 0) 0%,
+      rgba(169, 169, 169, 0.42) 100%
     ),
-    rgba(113, 47, 255, 0.24);
-  box-shadow: inset 0 0 12px #bf97ff70;
+    rgba(169, 169, 169, 0.24);
+  box-shadow: inset 0 0 12px #a9a9a970;
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */

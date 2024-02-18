@@ -33,7 +33,7 @@ const AboutMe = () => {
 
   return (
     <div className="flex flex-col items-center justify-center">
-      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
+      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#c7c7c7] to-[#3a3a3a] py-20">
         About Me
       </h1>
 
@@ -43,7 +43,7 @@ const AboutMe = () => {
           alt="loshan"
           width={300}
           height={300}
-          className="rounded-full bg-slate-900"
+          className="rounded-full bg-[#c7c7c7] shadow-lg"
         />
         <hr className="min-w-36 h-1 bg-gray-300 hidden md:block rotate-90" />
         <div className="flex flex-col justify-start">

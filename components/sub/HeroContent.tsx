@@ -7,7 +7,7 @@ import {
   slideInFromRight,
   slideInFromTop,
 } from "@/utils/motion";
-import { SparklesIcon } from "@heroicons/react/24/solid";
+import { BoltIcon } from "@heroicons/react/24/solid";
 import { Socials } from "@/constants";
 import Image from "next/image";
 import banner from "../../public/Programming-Language.png";
@@ -20,19 +20,19 @@ const HeroContent = () => {
       className="flex flex-row items-center justify-center px-20 w-full z-[20]"
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
-        <div className="flex flex-row gap-5 mt-20">
+        <div className="flex flex-row gap-5 mt-40">
           <motion.div
             variants={slideInFromTop}
-            className="Welcome-box py-[8px] px-[15px] border border-[#7042f88b] opacity-[0.9]"
+            className="Welcome-box py-[8px] px-[15px] border border-[#8080808b] opacity-[0.9]"
           >
-            <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
+            <BoltIcon className="text-[#8080808b] mr-[10px] h-5 w-5" />
             <h1 className="Welcome-text text-[13px]">Mobile App Developer</h1>
           </motion.div>
           <motion.div
             variants={slideInFromTop}
-            className="Welcome-box py-[8px] px-[15px] border border-[#7042f88b] opacity-[0.9]"
+            className="Welcome-box py-[8px] px-[15px] border border-[#8080808b] opacity-[0.9]"
           >
-            <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
+            <BoltIcon className="text-[#8080808b] mr-[10px] h-5 w-5" />
             <h1 className="Welcome-text text-[13px]">Fullstack Developer</h1>
           </motion.div>
         </div>
@@ -44,7 +44,7 @@ const HeroContent = () => {
             Hey,
             <div className="mt-5">
               I&apos;m
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#c7c7c7] to-[#3a3a3a]">
                 {" "}
                 Loshan Selvaraj{" "}
               </span>
@@ -95,11 +95,9 @@ const HeroContent = () => {
         className="w-full h-full flex justify-center  items-center"
       >
         <Image
-          src= "/mainIconsdark.svg"
-          width={400}
-          height={400}
+          src= {banner}
           alt="tech-stack-icon"
-          className="w-[650px] mt-[5.5rem] object-cover"
+          className="w-[650px] opacity-45 h-[450px] mt-[6rem] object-cover"
         />
       </motion.div>
     </motion.div>

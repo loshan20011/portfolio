@@ -3,6 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import { Socials } from "@/constants";
+import { WindowIcon } from "@heroicons/react/24/solid";
 
 const Navbar = () => {
   return (
@@ -12,13 +13,14 @@ const Navbar = () => {
           href="#about-me"
           className="h-auto w-auto flex flex-row items-center"
         >
+          <WindowIcon className="h-10 w-10 text-gray-300" />
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-            Loshan Selvaraj
+            PORTFOLIO
           </span>
         </a>
 
         <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
-          <div className="backdrop-blur-md shadow-lg shadow-[#2A0E61] flex items-center w-full justify-between h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
+          <div className="backdrop-blur-md shadow-lg shadow-[#333333] flex items-center w-full justify-between h-auto border border-[#333333] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
             <a href="#about-me" className="cursor-pointer">
               About Me
             </a>
