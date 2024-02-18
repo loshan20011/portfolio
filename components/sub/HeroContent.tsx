@@ -10,6 +10,7 @@ import {
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import { Socials } from "@/constants";
 import Image from "next/image";
+import banner from "../../public/Programming-Language.png";
 
 const HeroContent = () => {
   return (
@@ -58,27 +59,45 @@ const HeroContent = () => {
           I&apos;m a self-taught full-stack developer with a degree in Computer
           Science from the University of Westminster. I&apos;m committed to
           constantly improving my skills and staying updated with the latest
-          technologies. My combination of
-          technical expertise and strong interpersonal skills makes me a
-          valuable addition to any team. If you're seeking a motivated,
-          passionate, and skilled tech professional, I&apos;m the right fit for
-          your team!
+          technologies. My combination of technical expertise and strong
+          interpersonal skills makes me a valuable addition to any team. If
+          you're seeking a motivated, passionate, and skilled tech professional,
+          I&apos;m the right fit for your team!
         </motion.p>
 
         <motion.a
           variants={slideInFromLeft(1)}
+          className="py-2 w-full flex flex-row gap-5 text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+        >
+          <div className="flex flex-row gap-5">
+            {Socials.map((social) => (
+              <Image
+                key={social.name}
+                src={social.src}
+                alt={social.name}
+                width={24}
+                height={24}
+                className="cursor-pointer hover:animate-slowspin"
+              />
+            ))}
+          </div>
+        </motion.a>
+        {/* <motion.a
+          variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
           Learn more
-        </motion.a>
+        </motion.a> */}
       </div>
 
       <motion.div
         variants={slideInFromRight(0.8)}
         className="w-full h-full flex justify-center  items-center"
       >
-        <img
-          src="/mainIconsdark.svg"
+        <Image
+          src= "/mainIconsdark.svg"
+          width={400}
+          height={400}
           alt="tech-stack-icon"
           className="w-[650px] mt-[5.5rem] object-cover"
         />
