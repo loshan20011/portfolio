@@ -1,3 +1,5 @@
+'use client'
+
 import React from "react";
 import ProjectCard from "./ProjectCard";
 
@@ -11,36 +13,60 @@ const Projects = () => {
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 mb-10">
         <ProjectCard
           src="/NextWebsite.png"
-          title="Project 1"
-          description="This is a project"
+          title="Amazon Clone"
+          description="In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface."
+          techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
+          setClick={() => {
+            console.log("Visit Site");
+          }}
         />
         <ProjectCard
-          src="/CardImage.png"
-          title="Project 2"
-          description="This is a project"
+          src="/NextWebsite.png"
+          title="Amazon Clone"
+          description="In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface."
+          techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
+          setClick={() => {
+            console.log("Visit Site");
+          }}
         />
         <ProjectCard
-          src="/SpaceWebsite.png"
-          title="Project 3"
-          description="This is a project"
+          src="/NextWebsite.png"
+          title="Amazon Clone"
+          description="In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface."
+          techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
+          setClick={() => {
+            console.log("Visit Site");
+          }}
         />
       </div>
 
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 mb-10">
         <ProjectCard
           src="/NextWebsite.png"
-          title="Project 1"
-          description="This is a project"
+          title="Amazon Clone"
+          description="In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface."
+          techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
+          setClick={() => {
+            console.log("Visit Site");
+          }}
         />
         <ProjectCard
-          src="/CardImage.png"
-          title="Project 2"
-          description="This is a project"
+          src="/NextWebsite.png"
+          title="Amazon Clone"
+          description="In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface."
+          techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
+          setClick={() => {
+            console.log("Visit Site");
+          }}
         />
         <ProjectCard
-          src="/SpaceWebsite.png"
-          title="Project 3"
-          description="This is a project"
+          src="/NextWebsite.png"
+          title="Amazon Clone"
+          description="In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface."
+          techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
+          setClick={() => {
+            console.log("Visit Site");
+          }}
         />
       </div>
     </div>

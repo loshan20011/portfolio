@@ -49,6 +49,20 @@
   box-shadow: inset 0 0 12px #a9a9a970;
 }
 
+.project-primary {
+  box-shadow: inset 0 0 12px #a9a9a93d;
+}
+
+.project-primary:hover {
+  background: linear-gradient(
+      180deg,
+      rgba(169, 169, 169, 0) 0%,
+      rgba(169, 169, 169, 0.05) 100%
+    ),
+    rgba(169, 169, 169, 0.05);
+  box-shadow: inset 0 0 12px #a9a9a970;
+}
+
 /* Hide scrollbar for IE, Edge and Firefox */
 .scrollbar-hidden {
   -ms-overflow-style: none; /* IE and Edge */

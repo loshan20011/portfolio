@@ -7,7 +7,7 @@ import { WindowIcon } from "@heroicons/react/24/solid";
 
 const Navbar = () => {
   return (
-    <div className="w-full h-[65px] backdrop-blur-md fixed top-0 bg-[#03001417] z-50 px-10">
+    <div className="w-full h-[65px] backdrop-blur-md fixed top-0 bg-[#03001417] z-[1000] px-10">
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
         <a
           href="#about-me"

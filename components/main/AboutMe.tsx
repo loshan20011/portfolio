@@ -68,7 +68,7 @@ const AboutMe = () => {
             </TabButton>
           </div>
 
-          <div className="mt-8 w-[85%] min-h-40 text-white flex gap-3 flex-col justify-items-start ">
+          <div className="mt-8 w-[85%] min-h-40 text-gray-400 flex gap-3 flex-col justify-items-start ">
             {TAB_DATA.find((item) => item.id === tab)
               ?.label.split("\n")
               .map((line, index) => (
