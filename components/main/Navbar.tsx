@@ -1,9 +1,8 @@
 'use client';
 
 import React from "react";
-import Image from "next/image";
-import { Socials } from "@/constants";
 import { WindowIcon } from "@heroicons/react/24/solid";
+import Link from 'next/link'
 
 const Navbar = () => {
   return (
@@ -19,17 +18,19 @@ const Navbar = () => {
           </span>
         </a>
 
-        <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
-          <div className="backdrop-blur-md shadow-lg shadow-[#333333] flex items-center w-full justify-between h-auto border border-[#333333] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
-            <a href="#about-me" className="cursor-pointer">
-              About Me
-            </a>
-            <a href="#projects" className="cursor-pointer">
+        <div className="w-[400px] h-full flex flex-row items-center justify-between">
+          <div className="backdrop-blur-md shadow-lg shadow-[#333333] flex items-center w-full justify-between h-auto border border-[#333333] bg-[#0300145e] px-[20px] py-[10px] rounded-full text-gray-200">
+            <Link href="/" className="cursor-pointer hover:scale-110">
+              Home
+            </Link>
+            {/* <hr className="rotate-90 w-10"></hr> */}
+            <Link href="#about-me" className="cursor-pointer hover:scale-110">
+              AboutMe
+            </Link>
+            {/* <hr className="rotate-90 w-10"></hr> */}
+            <Link href="#projects" className="cursor-pointer hover:scale-110">
               Projects
-            </a>
-            <a href="#contact" className="cursor-pointer">
-              Contact
-            </a>
+            </Link>
           </div>
         </div>
 

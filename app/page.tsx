@@ -2,7 +2,7 @@ import AboutMe from "@/components/main/AboutMe";
 import ContactUs from "@/components/main/ContactUs";
 import Hero from "@/components/main/Hero";
 import MySkills from "@/components/main/MySkills";
-import Projects from "@/components/main/Projects";
+import MyProjects from "@/components/main/MyProjects";
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
         <Hero />
         <AboutMe />
         <MySkills />
-        <Projects />
+        <MyProjects />
         <ContactUs />
       </div>
     </main>

@@ -20,7 +20,7 @@ const ProjectCard = ({ src, title, description, techStack, setClick }: Props) =>
           alt={title}
           width={1000}
           height={1000}
-          className="w-full object-contain"
+          className="md:max-h-[240px] w-full"
         />
 
         <div className="relative p-4">

@@ -4,7 +4,7 @@ import React from "react";
 const ContactUs = () => {
   return (
     <div className="flex flex-col items-center justify-center pb-20">
-      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#c7c7c7] to-[#3a3a3a] pt-20 pb-10">
+      <h1 className="text-[40px] font-semibold bg-clip-text bg-gradient-to-r text-[#c7c7c7ad] to-[#3a3a3a] pt-20 pb-10">
         Let's Connect
       </h1>
 

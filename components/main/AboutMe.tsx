@@ -32,8 +32,10 @@ const AboutMe = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center">
-      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#c7c7c7] to-[#3a3a3a] py-20">
+    <section
+     id="about-me"
+     className="flex flex-col items-center justify-center">
+      <h1 className="text-[40px] font-semibold bg-clip-text bg-gradient-to-r text-[#c7c7c7ad] to-[#3a3a3a] py-20">
         About Me
       </h1>
 
@@ -77,7 +79,7 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

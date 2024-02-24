@@ -10,7 +10,7 @@ import { Autoplay } from "swiper/modules";
 const MySkills = () => {
   return (
     <div className="flex flex-col items-center justify-center">
-      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#c7c7c7] to-[#3a3a3a] py-20">
+      <h1 className="text-[40px] font-semibold bg-clip-text bg-gradient-to-r text-[#c7c7c7ad] to-[#3a3a3a] py-20">
         My Technical Skills
       </h1>
       <div className="flex flex-col gap-20 max-w-[80%] text-center items-center">
@@ -28,6 +28,7 @@ const MySkills = () => {
           {Skill_data.map((skill, index) => (
             <SwiperSlide key={index}>
               <Image
+                className="hover:scale-150"
                 src={skill.Image}
                 alt={skill.skill_name}
                 width={skill.width}
