@@ -10,12 +10,12 @@ const ContactUs = () => {
   return (
     <div className="flex flex-col items-center justify-center pb-20">
       <h1 className="text-[40px] font-semibold bg-clip-text bg-gradient-to-r text-[#c7c7c7ad] to-[#3a3a3a] pt-20 pb-10">
-        Let's Connect
+        Let&apos;s Connect
       </h1>
 
       <div className="flex flex-col items-center w-full align-middle justify-center">
         <div className="text-lg text-gray-400 w-[650px]">
-          I'm currently open to work, if you have any opportunities or just want
+          I&apos;m currently open to work, if you have any opportunities or just want
           to say hi, feel free to reach out to me at
           <a
             href="mailto:loshan20011@gmail.com"

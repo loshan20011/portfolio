@@ -61,7 +61,7 @@ const HeroContent = () => {
           constantly improving my skills and staying updated with the latest
           technologies. My combination of technical expertise and strong
           interpersonal skills makes me a valuable addition to any team. If
-          you're seeking a motivated, passionate, and skilled tech professional,
+          you&apos;re seeking a motivated, passionate, and skilled tech professional,
           I&apos;m the right fit for your team!
         </motion.p>
 
