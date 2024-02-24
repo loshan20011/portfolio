@@ -34,12 +34,12 @@ const AboutMe = () => {
   return (
     <section
      id="about-me"
-     className="flex flex-col items-center justify-center">
+     className="flex flex-col items-center min-h-[100vh] justify-center">
       <h1 className="text-[40px] font-semibold bg-clip-text bg-gradient-to-r text-[#c7c7c7ad] to-[#3a3a3a] py-20">
         About Me
       </h1>
 
-      <div className="h-full ml-40 text-left flex flex-row gap-10 max-w-[70%] items-center">
+      <div className="h-full max-w-[65%] ml-40 text-left flex flex-row justify-start gap-10 items-center">
         <Image
           src={image}
           alt="loshan"

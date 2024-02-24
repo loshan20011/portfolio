@@ -77,7 +77,11 @@ const HeroContent = () => {
                 alt={social.name}
                 width={24}
                 height={24}
-                className="cursor-pointer hover:animate-slowspin"
+                className="cursor-pointer hover:animate-slowspin hover:scale-110 z-[50]"
+                onClick={() => {
+                  window.open(social.link, "_blank");
+                }
+              }
               />
             ))}
           </div>

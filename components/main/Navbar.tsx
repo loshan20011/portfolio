@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
 import React from "react";
 import { WindowIcon } from "@heroicons/react/24/solid";
-import Link from 'next/link'
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -34,11 +34,19 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div 
-        className="py-2 px-5 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
-          <button onClick={() => {
-            console.log("Download CV");
-          }}> 
+        <div className="py-2 px-5 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
+          <button
+            onClick={() => {
+              const url =
+                "https://drive.google.com/uc?export=download&id=1KnF59HTHbur3J_BZ0xswG6b77IiQCHur";
+              const link = document.createElement("a");
+              link.href = url;
+              link.download = "LOSHAN_CV.pdf";
+              link.target = "_blank";
+              link.rel = "noopener noreferrer"; 
+              link.click();
+            }}
+          >
             Download CV
           </button>
         </div>

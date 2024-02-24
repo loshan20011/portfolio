@@ -36,12 +36,6 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "React Query",
-      Image: "/reactquery.png",
-      width: 80,
-      height: 80,
-    },
-    {
       skill_name: "Type Script",
       Image: "/ts.png",
       width: 80,
@@ -50,18 +44,6 @@ export const Skill_data = [
     {
       skill_name: "Next js 13",
       Image: "/next.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Framer Motion",
-      Image: "/framer.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Stripe Payment",
-      Image: "/stripe.webp",
       width: 80,
       height: 80,
     },
@@ -77,21 +59,29 @@ export const Skill_data = [
       width: 40,
       height: 40,
     },
-  
+    {
+      skill_name: "Express",
+      Image: "/express.png",
+      width: 80,
+      height: 80,
+    },
   ];
   
   export const Socials = [
     {
       name: "Linkedin",
-      src: "/linkedIn.png"
+      src: "/linkedIn.png",
+      link: "https://www.linkedin.com/in/loshan-selvaraj-a78638215"
     },
     {
-      name: "Facebook",
-      src: "/facebook.svg",
+      name: "Github",
+      src: "/gitwhite.png",
+      link: "https://github.com/loshan20011"
     },
     {
       name: "Instagram",
       src: "/instagram.svg",
+      link: "https://www.instagram.com/loshan_selvaraj/"
     }
   ];
   
