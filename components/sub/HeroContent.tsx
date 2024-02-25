@@ -20,19 +20,19 @@ const HeroContent = () => {
       className="flex flex-row items-center justify-center px-20 w-full z-[20]"
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
-        <div className="flex flex-row gap-5 mt-[120px]">
+        <div className="flex flex-col md:flex-row gap-5 mt-[120px]">
           <motion.div
             variants={slideInFromTop}
             className="Welcome-box py-[8px] px-[15px] border border-[#8080808b] opacity-[0.9]"
           >
-            <BoltIcon className="text-[#8080808b] mr-[10px] h-5 w-5" />
+            <BoltIcon className="text-[#8080808b] mr-[10px] h-5 w-5 md:size-5 size-10"/>
             <h1 className="Welcome-text text-[13px]">Mobile App Developer</h1>
           </motion.div>
           <motion.div
             variants={slideInFromTop}
             className="Welcome-box py-[8px] px-[15px] border border-[#8080808b] opacity-[0.9]"
           >
-            <BoltIcon className="text-[#8080808b] mr-[10px] h-5 w-5" />
+            <BoltIcon className="text-[#8080808b] mr-[10px] h-5 w-5 md:size-5 size-10" />
             <h1 className="Welcome-text text-[13px]">Fullstack Developer</h1>
           </motion.div>
         </div>
