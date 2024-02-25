@@ -25,22 +25,24 @@ const HeroContent = () => {
             variants={slideInFromTop}
             className="Welcome-box py-[8px] px-[15px] border border-[#8080808b] opacity-[0.9]"
           >
-            <BoltIcon className="text-[#8080808b] mr-[10px] h-5 w-5 md:size-5 size-10"/>
-            <h1 className="Welcome-text text-[13px]">Mobile App Developer</h1>
+            <BoltIcon className="text-[#8080808b] mr-[10px] h-5 w-5 md:size-5 size-10" />
+            <h1 className="Welcome-text text-[13px]">Fullstack Developer</h1>
           </motion.div>
+
           <motion.div
             variants={slideInFromTop}
             className="Welcome-box py-[8px] px-[15px] border border-[#8080808b] opacity-[0.9]"
           >
             <BoltIcon className="text-[#8080808b] mr-[10px] h-5 w-5 md:size-5 size-10" />
-            <h1 className="Welcome-text text-[13px]">Fullstack Developer</h1>
+            <h1 className="Welcome-text text-[13px]">Mobile App Developer</h1>
           </motion.div>
         </div>
+        
         <motion.div
           variants={slideInFromLeft(0.5)}
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
-          <span>
+          <span className="md:text-6xl text-4xl">
             Hey,
             <div className="mt-5">
               I&apos;m
@@ -61,8 +63,8 @@ const HeroContent = () => {
           constantly improving my skills and staying updated with the latest
           technologies. My combination of technical expertise and strong
           interpersonal skills makes me a valuable addition to any team. If
-          you&apos;re seeking a motivated, passionate, and skilled tech professional,
-          I&apos;m the right fit for your team!
+          you&apos;re seeking a motivated, passionate, and skilled tech
+          professional, I&apos;m the right fit for your team!
         </motion.p>
 
         <motion.a
@@ -80,26 +82,19 @@ const HeroContent = () => {
                 className="cursor-pointer hover:animate-slowspin hover:scale-110 z-[50]"
                 onClick={() => {
                   window.open(social.link, "_blank");
-                }
-              }
+                }}
               />
             ))}
           </div>
         </motion.a>
-        {/* <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-        >
-          Learn more
-        </motion.a> */}
       </div>
 
       <motion.div
         variants={slideInFromRight(0.8)}
-        className="w-full h-full flex justify-center  items-center"
+        className="w-full h-full md:flex justify-center hidden items-center"
       >
         <Image
-          src= {banner}
+          src={banner}
           alt="tech-stack-icon"
           className="w-[650px] opacity-45 h-[450px] mt-[6rem] object-cover"
         />
