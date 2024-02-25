@@ -17,10 +17,10 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-20 w-full z-[20]"
+      className="flex flex-row items-center justify-center md:px-20 px-10 w-full z-[20]"
     >
-      <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
-        <div className="flex flex-col md:flex-row gap-5 mt-[120px]">
+      <div className="h-full w-full flex flex-col md:gap-5 justify-center md:m-auto m-0 text-start">
+        <div className="flex flex-col md:flex-row gap-5 md:mt-[120px] mt-[100px]">
           <motion.div
             variants={slideInFromTop}
             className="Welcome-box py-[8px] px-[15px] border border-[#8080808b] opacity-[0.9]"
