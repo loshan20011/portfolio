@@ -26,14 +26,19 @@ const ProjectCard = ({ src, title, description, techStack, setClick }: Props) =>
         <div className="relative p-4">
           <h1 className="text-2xl font-semibold text-white">{title}</h1>
           <p className="mt-2 text-gray-400">{description}</p>
-          <div className="flex flex-row gap-2 mt-4">
+          <div className="flex flex-col md:flex-row gap-2 mt-4">
             <span className="text-gray-400">Tech Stack:</span>
-            <div className="flex flex-row gap-2">
+            <div className="flex flex-row md:gap-2 gap-2">
               {techStack.map((tech, index) =>
                 techStack.length - 1 !== index ? (
-                  <span key={index} className="text-gray-400">
-                    {tech} |
-                  </span>
+                  <div>
+                    <span key={index} className="block md:hidden text-gray-400">
+                      {tech} 
+                    </span>
+                    <span key={index} className="hidden md:block text-gray-400">
+                      {tech} |
+                    </span>
+                  </div>
                 ) : (
                   <span key={index} className="text-gray-400">
                     {tech}
@@ -42,9 +47,6 @@ const ProjectCard = ({ src, title, description, techStack, setClick }: Props) =>
               )}
             </div>
           </div>
-          {/* <div className="flex gap-3">
-          <button className="relative z-50 mt-4 Welcome-text text-[13px] Welcome-box py-[8px] px-[15px] border border-[#8080808b] opacity-[0.9]">Visit Site</button>
-        </div> */}
         </div>
       </button>
   );
