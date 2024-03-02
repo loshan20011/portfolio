@@ -29,7 +29,7 @@ const ProjectCard = ({ src, title, description, techStack, setClick }: Props) =>
           <span className="text-gray-400">Tech Stack:</span>
           <div className="flex flex-row md:gap-2 gap-2">
             {techStack.map((tech, index) => (
-              <div key={index}> {/* Add key prop here */}
+              <div key={index}>
                 <span className="block md:hidden text-gray-400">{tech}</span>
                 <span className="hidden md:block text-gray-400">{tech} |</span>
               </div>

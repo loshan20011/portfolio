@@ -17,7 +17,7 @@ const MyProjects = () => {
           src="/thrive360.png"
           title="Thrive360"
           description="In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface."
-          techStack={["React", "Next.js", "Tailwind-CSS", "Firebase"]}
+          techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
           setClick={() => {
             window.open("https://thethrive360.net/", "_blank");
           }}
