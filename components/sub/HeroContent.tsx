@@ -7,7 +7,7 @@ import {
   slideInFromRight,
   slideInFromTop,
 } from "@/utils/motion";
-import { BoltIcon } from "@heroicons/react/24/solid";
+import { BoltIcon, ArrowDownTrayIcon } from "@heroicons/react/24/solid";
 import { Socials } from "@/constants";
 import Image from "next/image";
 import banner from "../../public/Programming-Language.png";
@@ -66,6 +66,24 @@ const HeroContent = () => {
           you&apos;re seeking a motivated, passionate, and skilled tech
           professional, I&apos;m the right fit for your team!
         </motion.p>
+        
+        <motion.div className="w-[12.5rem] py-2 mb-5 flex md:hidden px-8 button-primary text-center text-white cursor-pointer rounded-lg">
+          <button
+            onClick={() => {
+              const url =
+                "https://drive.google.com/uc?export=download&id=1KnF59HTHbur3J_BZ0xswG6b77IiQCHur";
+              const link = document.createElement("a");
+              link.href = url;
+              link.download = "LOSHAN_CV.pdf";
+              link.target = "_blank";
+              link.rel = "noopener noreferrer"; 
+              link.click();
+            }}
+          >
+            Download CV
+          </button>
+          <ArrowDownTrayIcon className="h-5 w-5 ml-2" />
+        </motion.div>
 
         <motion.a
           variants={slideInFromLeft(1)}

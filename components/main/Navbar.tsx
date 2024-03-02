@@ -1,7 +1,12 @@
-'use client'
+"use client";
 
 import React, { useState } from "react";
-import { WindowIcon } from "@heroicons/react/24/solid";
+import {
+  WindowIcon,
+  Bars4Icon,
+  Bars3BottomRightIcon,
+  ArrowDownTrayIcon,
+} from "@heroicons/react/24/solid";
 import Link from "next/link";
 
 const Navbar = () => {
@@ -13,12 +18,13 @@ const Navbar = () => {
 
   return (
     <div className="w-full h-[65px] backdrop-blur-md fixed top-0 bg-[#03001417] z-[1000] px-10">
-      <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
-        <a href="#about-me" className="h-auto w-auto flex flex-row items-center">
+      <div className="w-full h-full flex flex-row items-center justify-between m-auto">
+        <a
+          href="#about-me"
+          className="h-auto w-auto flex flex-row items-center"
+        >
           <WindowIcon className="h-10 w-10 text-gray-300" />
-          <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-            PORTFOLIO
-          </span>
+          <span className="font-bold ml-[10px] text-gray-300">PORTFOLIO</span>
         </a>
 
         {/* Mobile Toggle Button */}
@@ -27,24 +33,38 @@ const Navbar = () => {
             onClick={toggleMobileMenu}
             className="text-gray-300 focus:outline-none"
           >
-            {/* You can use a mobile menu icon here */}
-            {isMobileMenuOpen ? "Close" : "Menu"}
+            {isMobileMenuOpen ? (
+              <Bars3BottomRightIcon className="h-10 w-10 text-gray-300" />
+            ) : (
+              <Bars4Icon className="h-10 w-10 text-gray-300" />
+            )}
           </button>
         </div>
 
         {/* Mobile Navigation Links */}
         <div
           className={`md:hidden ${
-            isMobileMenuOpen ? "flex" : "hidden"
-          } flex-col absolute top-[65px] left-0 right-0 bg-[#0300145e] px-4 py-2 rounded-lg`}
+            isMobileMenuOpen
+              ? "flex transition-all duration-8000 ease-in-out"
+              : "hidden"
+          } flex-col absolute top-[65px] w-full justify-end left-0 right-0 bg-[#0300145e] px-10 py-5 gap-4 rounded-lg`}
         >
-          <Link href="/" className="cursor-pointer text-gray-200 mb-2 hover:scale-110">
+          <Link
+            href="/"
+            className="cursor-pointer flex justify-end border-b-2 text-gray-200 mb-2 pb-4 hover:scale-110"
+          >
             Home
           </Link>
-          <Link href="#about-me" className="cursor-pointer text-gray-200 mb-2 hover:scale-110">
+          <Link
+            href="#about-me"
+            className="cursor-pointer flex justify-end border-b-2 text-gray-200 mb-2 pb-4 hover:scale-110"
+          >
             About Me
           </Link>
-          <Link href="#projects" className="cursor-pointer text-gray-200 mb-2 hover:scale-110">
+          <Link
+            href="#projects"
+            className="cursor-pointer flex justify-end border-b-2 text-gray-200 mb-2 pb-4 hover:scale-110"
+          >
             Projects
           </Link>
         </div>
@@ -64,7 +84,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="py-2 px-5 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
+        <div className="py-2 hidden md:flex px-5 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
           <button
             onClick={() => {
               const url =
@@ -73,12 +93,13 @@ const Navbar = () => {
               link.href = url;
               link.download = "LOSHAN_CV.pdf";
               link.target = "_blank";
-              link.rel = "noopener noreferrer"; 
+              link.rel = "noopener noreferrer";
               link.click();
             }}
           >
             Download CV
           </button>
+          <ArrowDownTrayIcon className="h-5 w-5 ml-2" />
         </div>
       </div>
     </div>
