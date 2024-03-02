@@ -48,8 +48,8 @@ const AboutMe = () => {
           className="rounded-full bg-[#c7c7c7] shadow-lg"
         />
         <hr className="min-w-36 h-1 bg-gray-300 hidden md:block rotate-90" />
-        <div className="flex flex-col m-auto w-full justify-center md:justify-start">
-          <div className="flex flex-row gap-10 flex-nowrap relative z-50">
+        <div className="flex flex-col md:m-auto w-full m-auto justify-center md:justify-start">
+          <div className="flex justify-center flex-row md:gap-10 gap-3 flex-nowrap relative z-50">
             <TabButton
               selectTab={() => {
                 handleTabChange("education");
@@ -70,7 +70,7 @@ const AboutMe = () => {
             </TabButton>
           </div>
 
-          <div className="mt-8 w-[85%] min-h-40 text-gray-400 flex gap-3 flex-col justify-items-start ">
+          <div className="mt-8 md:w-[85%] w-full px-10 md:px-0 min-h-40 text-gray-400 flex gap-3 flex-col md:justify-items-start ">
             {TAB_DATA.find((item) => item.id === tab)
               ?.label.split("\n")
               .map((line, index) => (
