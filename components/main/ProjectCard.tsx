@@ -32,15 +32,15 @@ const ProjectCard = ({ src, title, description, techStack, setClick }: Props) =>
               {techStack.map((tech, index) =>
                 techStack.length - 1 !== index ? (
                   <div>
-                    <span className="block md:hidden text-gray-400">
+                    <span key={index} className="block md:hidden text-gray-400">
                       {tech} 
                     </span>
-                    <span className="hidden md:block text-gray-400">
+                    <span key={index} className="hidden md:block text-gray-400">
                       {tech} |
                     </span>
                   </div>
                 ) : (
-                  <span className="text-gray-400">
+                  <span key={index} className="text-gray-400">
                     {tech}
                   </span>
                 )
