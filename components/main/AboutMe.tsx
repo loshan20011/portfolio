@@ -35,11 +35,11 @@ const AboutMe = () => {
     <section
      id="about-me"
      className="flex flex-col items-center min-h-[100vh] justify-center">
-      <h1 className="text-[40px] font-semibold bg-clip-text bg-gradient-to-r text-[#c7c7c7ad] to-[#3a3a3a] py-20">
+      <h1 className="text-[40px] text-center font-semibold bg-clip-text bg-gradient-to-r text-[#c7c7c7ad] to-[#3a3a3a] py-20">
         About Me
       </h1>
 
-      <div className="h-full max-w-[65%] ml-40 text-left flex flex-row justify-start gap-10 items-center">
+      <div className="h-full md:max-w-[65%] md:ml-40 w-full text-left flex md:flex-row flex-col md:justify-start gap-10 items-center">
         <Image
           src={image}
           alt="loshan"
@@ -48,7 +48,7 @@ const AboutMe = () => {
           className="rounded-full bg-[#c7c7c7] shadow-lg"
         />
         <hr className="min-w-36 h-1 bg-gray-300 hidden md:block rotate-90" />
-        <div className="flex flex-col justify-start">
+        <div className="flex flex-col m-auto w-full justify-center md:justify-start">
           <div className="flex flex-row gap-10 flex-nowrap relative z-50">
             <TabButton
               selectTab={() => {

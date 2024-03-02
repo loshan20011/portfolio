@@ -17,10 +17,10 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center md:px-20 px-10 w-full z-[20]"
+      className="h-full flex flex-row items-center justify-center md:px-20 pl-10 w-full z-[20]"
     >
       <div className="h-full w-full flex flex-col md:gap-5 justify-center md:m-auto m-0 text-start">
-        <div className="flex flex-col md:flex-row gap-5 md:mt-[120px] mt-[100px]">
+        <div className="flex flex-col md:flex-row md:gap-5 gap-2 md:mt-[120px] mt-[100px]">
           <motion.div
             variants={slideInFromTop}
             className="Welcome-box py-[8px] px-[15px] border border-[#8080808b] opacity-[0.9]"
@@ -40,7 +40,7 @@ const HeroContent = () => {
         
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white md:max-w-[600px] w-auto h-auto"
         >
           <span className="md:text-6xl text-4xl">
             Hey,
@@ -56,7 +56,7 @@ const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
+          className="md:text-lg text-base text-gray-400 text-justify my-5 max-w-[600px]"
         >
           I&apos;m a self-taught full-stack developer with a degree in Computer
           Science from the University of Westminster. I&apos;m committed to
