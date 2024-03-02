@@ -14,7 +14,7 @@ const ContactUs = () => {
       </h1>
 
       <div className="flex flex-col items-center w-full align-middle justify-center">
-        <div className="text-lg text-gray-400 w-[650px]">
+        <div className="text-lg text-gray-400 w-full px-10 md:px-0 md:w-[650px]">
           I&apos;m currently open to work, if you have any opportunities or just want
           to say hi, feel free to reach out to me at
           <a
@@ -26,8 +26,8 @@ const ContactUs = () => {
             Loshan20011@gmail.com
           </a>
         </div>
-        <div>
-          <form className="w-[650px]"
+        <div className="w-full md:w-[650px] px-10 md:px-0">
+          <form
             onSubmit={(e) => {
               handleSubmit(e);
             }}
@@ -70,7 +70,7 @@ const ContactUs = () => {
             </div>
             <button
               type="submit"
-              className="py-2 px-5 button-primary text-white cursor-pointer rounded-lg max-w-[200px]"
+              className="py-2 px-5 button-primary text-white cursor-pointer rounded-lg md:max-w-[200px]"
             >
               Submit
             </button>
