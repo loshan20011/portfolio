@@ -10,7 +10,7 @@ type Props = {
   description: string;
   techStack: string[];
   functionalities: string[];
-  onclick: () => void;
+  // onclick: () => void;
 }
 
 const Page = ({
@@ -20,7 +20,7 @@ const Page = ({
   description,
   techStack,
   functionalities,
-  onclick,
+  // onclick,
 }: Props) => {
   return (
     <div className="md:h-[88vh] w-full flex flex-row justify-center md:items-center">
@@ -34,7 +34,7 @@ const Page = ({
               width={800}
               height={200}
               className="object-cover md:[500px] rounded-lg shadow-lg border border-[#333333]"
-              onClick={onclick}
+              // onClick={onclick}
             />
           </div>
           <h1 className="text-white md:text-left mt-16 md:mt-8 mb-4 text-3xl font-bold">
@@ -69,7 +69,7 @@ const Page = ({
           <div className="flex flex-row gap-4 w-full mb-14 ">
             <div className="py-2 px-5 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
               <button
-                onClick={onclick}
+                // onClick={onclick}
               >
                 Visit Site
               </button>
@@ -77,7 +77,7 @@ const Page = ({
 
             <div className="py-2 px-5 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
               <button
-                onClick={ onclick }
+                // onClick={ onclick }
               >
                 Visit GitHub
               </button>
