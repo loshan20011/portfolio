@@ -4,10 +4,10 @@ import React from "react";
 import Image from "next/image";
 
 type Props = {
-  src: any;
-  alt: any;
-  title: any;
-  description: any;
+  src: string;
+  alt: string;
+  title: string;
+  description: string;
   techStack: string[];
   functionalities: string[];
   onclick: () => void;
@@ -59,14 +59,12 @@ const Page = ({
           </div>
           <div className="text-white mb-8 md:ml-0">
             <h2 className="text-xl font-semibold mb-4">Functionalities</h2>
-            <ul>
             {functionalities.map((functional, index) => (
               <div key={index}>
-                <li className="block md:hidden text-white">- {functional}</li>
-                <li className="hidden md:block text-white">- {functional}</li>
+                <div className="block md:hidden text-white">- {functional}</div>
+                <div className="hidden md:block text-white">- {functional}</div>
               </div>
             ))}
-            </ul>
           </div>
           <div className="flex flex-row gap-4 w-full mb-14 ">
             <div className="py-2 px-5 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
