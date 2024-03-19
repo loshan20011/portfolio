@@ -15,15 +15,12 @@ const MyProjects = () => {
       </h1>
 
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 mb-10">
-        <Link href="/projects">
+        <Link href="/projects/Foodflow">
           <ProjectCard
             src="/thrive360.png"
             title="Thrive360"
             description="In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface."
             techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
-            // setClick={() => {
-            //   window.open("https://thethrive360.net/", "_blank");
-            // }}
           />
         </Link>
         <ProjectCard
@@ -31,18 +28,12 @@ const MyProjects = () => {
           title="SmartEdu"
           description="In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface."
           techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
-          // setClick={() => {
-          //   window.open("https://smartedu.com.lk/", "_blank");
-          // }}
         />
         <ProjectCard
           src="/amazonclone.png"
           title="Amazon Clone"
           description="In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface."
           techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
-          // setClick={() => {
-          //   window.open("https://clone-45ed0.web.app/", "_blank");
-          // }}
         />
       </div>
 
@@ -52,27 +43,18 @@ const MyProjects = () => {
           title="FoodFlow"
           description="In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface."
           techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
-          // setClick={() => {
-          //   window.open("https://thefoodflow.live/", "_blank");
-          // }}
         />
         <ProjectCard
           src="/sportsnext.png"
           title="SportNext"
           description="In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface."
           techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
-          // setClick={() => {
-          //   window.open("https://sports-next.vercel.app/", "_blank");
-          // }}
         />
         <ProjectCard
           src="/amazonclone.png"
           title="Amazon Clone"
           description="In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface."
           techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
-          // setClick={() => {
-          //   window.open("https://clone-45ed0.web.app/", "_blank");
-          // }}
         />
       </div>
     </section>

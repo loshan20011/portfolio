@@ -56,13 +56,13 @@ const Navbar = () => {
             Home
           </Link>
           <Link
-            href="#about-me"
+            href="/#about-me"
             className="cursor-pointer flex justify-end border-b-2 text-gray-200 mb-2 pb-4 hover:scale-110"
           >
             About Me
           </Link>
           <Link
-            href="#projects"
+            href="/#projects"
             className="cursor-pointer flex justify-end border-b-2 text-gray-200 mb-2 pb-4 hover:scale-110"
           >
             My Projects
@@ -75,10 +75,10 @@ const Navbar = () => {
             <Link href= "/"  className="cursor-pointer hover:scale-110">
               Home
             </Link>
-            <Link href="#about-me" className="cursor-pointer hover:scale-110">
+            <Link href="/#about-me" className="cursor-pointer hover:scale-110">
               About Me
             </Link>
-            <Link href="#projects" className="cursor-pointer hover:scale-110">
+            <Link href="/#projects" className="cursor-pointer hover:scale-110">
               My Projects
             </Link>
           </div>
