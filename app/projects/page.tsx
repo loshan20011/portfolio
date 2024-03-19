@@ -47,7 +47,7 @@ const Page = ({
 
         {/* Right side */}
         <div className="flex flex-col ml-0 md:ml-16 justify-center">
-          <div className="text-white flex flex-col md:flex-row mb-8 md:ml-0">
+          <div className="text-white flex flex-row mb-8 md:ml-0">
             <span className="mr-3 font-semibold">Tech Stack:</span>
             
             {techStack.map((tech, index) => (
