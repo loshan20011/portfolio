@@ -24,7 +24,7 @@ const Page = ({
 }: Props) => {
   return (
     <div className="md:h-[88vh] w-full flex flex-row justify-center md:items-center">
-      <div className="grid grid-cols-1 md:grid-cols-2 mx-14 md:mx-40">
+      <div className="grid grid-cols-1 md:grid-cols-2 mx-8 md:mx-40">
         {/* Left side */}
         <div className="flex flex-col items-start">
           <div className="mt-20 md:mt-24 mb-40 md:mb-0 w-[355px] md:w-[400px] md:h-[200px] h-0 relative">
