@@ -8,7 +8,6 @@ interface Props {
   title: string;
   description: string;
   techStack: string[];
-  // setClick: () => void;
 }
 
 const ProjectCard = ({
@@ -16,11 +15,9 @@ const ProjectCard = ({
   title,
   description,
   techStack,
-  // setClick,
 }: Props) => {
   return (
     <button
-      // onClick={setClick}
       className="text-left relative z-50 project-primary overflow-hidden rounded-lg shadow-lg border border-[#333333]"
     >
       <Image
