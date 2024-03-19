@@ -4,10 +4,10 @@ import React from "react";
 import Image from "next/image";
 
 type Props = {
-  src: string;
-  alt: string;
-  title: string;
-  description: string;
+  src: any;
+  alt: any;
+  title: any;
+  description: any;
   techStack: string[];
   functionalities: string[];
   onclick: () => void;
