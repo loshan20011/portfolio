@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import Image from "next/image";
 import React from "react";
@@ -8,12 +8,21 @@ interface Props {
   title: string;
   description: string;
   techStack: string[];
-  setClick: () => void;
+  // setClick: () => void;
 }
 
-const ProjectCard = ({ src, title, description, techStack, setClick }: Props) => {
+const ProjectCard = ({
+  src,
+  title,
+  description,
+  techStack,
+  // setClick,
+}: Props) => {
   return (
-    <button onClick={setClick} className="text-left relative z-50 project-primary overflow-hidden rounded-lg shadow-lg border border-[#333333]">
+    <button
+      // onClick={setClick}
+      className="text-left relative z-50 project-primary overflow-hidden rounded-lg shadow-lg border border-[#333333]"
+    >
       <Image
         src={src}
         alt={title}

@@ -65,21 +65,21 @@ const Navbar = () => {
             href="#projects"
             className="cursor-pointer flex justify-end border-b-2 text-gray-200 mb-2 pb-4 hover:scale-110"
           >
-            Projects
+            My Projects
           </Link>
         </div>
 
         {/* Desktop Navigation Links */}
         <div className="hidden md:flex flex-row items-center justify-between w-[400px] h-full">
           <div className="backdrop-blur-md shadow-lg shadow-[#333333] flex items-center w-full justify-between h-auto border border-[#333333] bg-[#0300145e] px-[20px] py-[10px] rounded-full text-gray-200">
-            <Link href="/" className="cursor-pointer hover:scale-110">
+            <Link href= "/"  className="cursor-pointer hover:scale-110">
               Home
             </Link>
             <Link href="#about-me" className="cursor-pointer hover:scale-110">
               About Me
             </Link>
             <Link href="#projects" className="cursor-pointer hover:scale-110">
-              Projects
+              My Projects
             </Link>
           </div>
         </div>
