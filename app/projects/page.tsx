@@ -3,7 +3,7 @@
 import React from "react";
 import Image from "next/image";
 
-interface Prop {
+type Props = {
   src: string;
   alt: string;
   title: string;
@@ -21,7 +21,7 @@ const Page = ({
   techStack,
   functionalities,
   onclick,
-}: Prop) => {
+}: Props) => {
   return (
     <div className="md:h-[88vh] w-full flex flex-row justify-center md:items-center">
       <div className="grid grid-cols-1 md:grid-cols-2 mx-10 md:mx-40">
