@@ -15,7 +15,8 @@ const MyProjects = () => {
       </h1>
 
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 mb-10">
-        <Link href="/projects/Foodflow">
+        {/* <Link href=""> */}
+        <Link href="./projects/Foodflow">
           <ProjectCard
             src="/thrive360.png"
             title="Thrive360"
