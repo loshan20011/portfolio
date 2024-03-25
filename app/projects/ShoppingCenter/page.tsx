@@ -4,7 +4,7 @@ import React from 'react'
 import Image from 'next/image';
 
 const functionalities = ["User Authentication", "Product Browsing", "Cart Management", "Responsive UI"]
-const techStack = ["React", "Next.js", "Tailwind CSS", "Firebase"];
+const techStack = ["Java", "JavaSwing"];
 
 const page = () => {
   return (
@@ -12,15 +12,15 @@ const page = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 mx-10 md:mx-40">
         {/* Left side */}
         <div className="flex flex-col items-start">
-          <div className="mt-20 md:mt-24 mb-40 md:mb-0 w-[340px] md:w-[400px] md:h-[200px] h-0 relative">
+          <div className="mt-20 md:mt-24 mb-40 md:mb-0 w-[340px] md:w-[400px] md:h-[310px] h-0 relative">
             <Image
-              src= "/foodflow.png"
+              src= "/shoppingcenter.png"
               alt= "Shopping Center"
               width={800}
-              height={200}
+              height={310}
               className="object-cover md:[500px] rounded-lg shadow-lg border border-[#333333]"
               onClick={() => {
-                window.open("https://thefoodflow.live", "_blank");
+                window.open("https://github.com/loshan20011/Westminster-Shopping", "_blank");
               }}
             />
           </div>
@@ -28,8 +28,7 @@ const page = () => {
             Shopping Center
           </h1>
           <p className="text-justify mb-8 md:text-lg md:text-white text-base text-gray-400 mr-4 md:text-left">
-            In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface.
-          </p>
+          In this project, I developed an application utilizing Java for console operations and Java Swing for GUI, featuring product storage, basket cart management, and user authentication with file handling capabilities.          </p>
         </div>
 
         {/* Right side */}
@@ -57,7 +56,7 @@ const page = () => {
             <div className="py-2 px-5 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
               <button
                 onClick={ () => {
-                  window.open("https://thefoodflow.live", "_blank");
+                  window.open("https://github.com/loshan20011/Westminster-Shopping", "_blank");
                 } }
               >
                 Visit Site
@@ -67,7 +66,7 @@ const page = () => {
             <div className="py-2 px-5 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
               <button
                 onClick={ () => {
-                  window.open("https://thefoodflow.live", "_blank")
+                  window.open("https://github.com/loshan20011/Westminster-Shopping", "_blank")
                 } }
               >
                 Visit GitHub

@@ -4,7 +4,7 @@ import React from 'react'
 import Image from 'next/image';
 
 const functionalities = ["User Authentication", "Product Browsing", "Cart Management", "Responsive UI"]
-const techStack = ["React", "Next.js", "Tailwind CSS", "Firebase"];
+const techStack = ["HTML5", "NodeJS", "MongoDB", "CSS3", "JavaScript", "Bootstrap5"];
 
 const page = () => {
   return (

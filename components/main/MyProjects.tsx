@@ -23,7 +23,7 @@ const MyProjects = () => {
             title="Elite BluPrint"
             description="In this project, I pioneered and executed a groundbreaking concept: transforming text descriptions into visually stunning 2D floor plans through innovative implementation. It led back-end CRUD operations, API connections and front-end.
             The elite blue print implemented the backend logic (algorithm), responsible for the innovative generation of 2D floor plans."
-            techStack={["React", "Tailwind CSS", "MongoDB"]}
+            techStack={["ReactJS", "Tailwind CSS", "MongoDB", "Express API", "Firebase", "Python" , "JWT tokens"]}
           />
         </Link>
         <Link href="./projects/Foodflow">
@@ -33,7 +33,7 @@ const MyProjects = () => {
             description="In this project, I developed the website responsiveness for optimal user experience on diverse devices.
             The foodflow led back-end development efforts for the web application.
             in this group project I played a key role in developing front of the application."
-            techStack={["HTML", "Node.js", "MongoDB"]}
+            techStack={["HTML5", "NodeJS", "MongoDB", "CSS3", "JavaScript", "Bootstrap5" ]}
           />
         </Link>
         <Link href="./projects/SportsNext">
@@ -53,7 +53,7 @@ const MyProjects = () => {
             src="/beehoney.png"
             title="BeeHoney"
             description="In this project, I have crafted a conceptualized, designed, and developed a responsive website for the business."
-            techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
+            techStack={["Wordpress", "Elementor", "wordpress plugins"]}
           />
         </Link>
        
@@ -62,15 +62,15 @@ const MyProjects = () => {
             src="/amazonclone.png"
             title="Amazon Clone"
             description="In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface."
-            techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
+            techStack={["ReactJS", "Firebase"]}
           />
         </Link>
         <Link href="./projects/SmartEdu">
           <ProjectCard
             src="/smartedu.png"
             title="SmartEdu"
-            description="In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface."
-            techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
+            description="In this project,I have crafted a conceptualized, designed, and developed a seamless and responsive user interface for business organization."
+            techStack={["Wordpress", "Elementor", "wordpress plugins"]}
           />
         </Link>
       </div>
@@ -81,24 +81,24 @@ const MyProjects = () => {
           <ProjectCard
             src="/thrive360.png"
             title="Thrive360"
-            description="In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface."
-            techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
+            description="In this project,I have crafted a conceptualized, designed, and developed a seamless and responsive user interface for business organization."
+            techStack={["Wordpress", "Elementor", "wordpress plugins"]}
           />
         </Link>
         <Link href="./projects/HMInterior">
           <ProjectCard
             src="/hminterior.png"
             title="HM Interior"
-            description="In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface."
-            techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
+            description="In this project,I have crafted a conceptualized, designed, and developed a seamless and responsive user interface for business organization."
+            techStack={["Wordpress", "Elementor", "wordpress plugins"]}
           />
         </Link>
         <Link href="./projects/ShoppingCenter">
           <ProjectCard
-            src="/amazonclone.png"
+            src="/shoppingcenter.png"
             title="Shopping Center"
             description="In this project, I developed an application utilizing Java for console operations and Java Swing for GUI, featuring product storage, basket cart management, and user authentication with file handling capabilities."
-            techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
+            techStack={["Java", "JavaSwing"]}
           />
         </Link>
       </div>

@@ -3,8 +3,8 @@
 import React from 'react'
 import Image from 'next/image';
 
-const functionalities = ["User Authentication", "Product Browsing", "Cart Management", "Responsive UI"]
-const techStack = ["React", "Next.js", "Tailwind CSS", "Firebase"];
+const functionalities = ["User Authentication", "Product Browsing", "Newsletter subscription", "Responsive UI"]
+const techStack = ["Wordpress", "Elementor", "wordpress plugins"];
 
 const page = () => {
   return (
@@ -28,8 +28,7 @@ const page = () => {
             Thrive360
           </h1>
           <p className="text-justify mb-8 md:text-lg md:text-white text-base text-gray-400 mr-4 md:text-left">
-            In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface.
-          </p>
+          In this project,I have crafted a conceptualized, designed, and developed a seamless and responsive user interface for business organization.         </p>
         </div>
 
         {/* Right side */}

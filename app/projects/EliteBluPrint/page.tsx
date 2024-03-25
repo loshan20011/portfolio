@@ -3,8 +3,8 @@
 import React from 'react'
 import Image from 'next/image';
 
-const functionalities = ["User Authentication", "Product Browsing", "Cart Management", "Responsive UI"]
-const techStack = ["React", "Next.js", "Tailwind CSS", "Firebase"];
+const functionalities = ["User Authentication", "payment gateway", "auto generated floor plan", "Responsive UI"]
+const techStack = ["ReactJS", "Tailwind CSS", "MongoDB", "Express API", "Firebase", "Python" , "JWT tokens"];
 
 const page = () => {
   return (
