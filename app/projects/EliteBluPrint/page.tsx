@@ -40,7 +40,7 @@ const page = () => {
             {techStack.map((tech, index) => (
               <div key={index}>
                 <span className="block md:hidden text-gray-400">{tech}</span>
-                <span className="hidden md:block text-gray-400 ml-1">{tech} |</span>
+                <span className="hidden md:block text-gray-400 ml-3">{tech}</span>
               </div>
             ))}
           </div>
