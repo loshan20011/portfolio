@@ -20,7 +20,7 @@ const MyProjects = () => {
         <Link href="./projects/EliteBluPrint">
           <ProjectCard
             src="/elitebluprint.png"
-            title="EliteBlue Print"
+            title="Elite BluPrint"
             description="In this project, I pioneered and executed a groundbreaking concept: transforming text descriptions into visually stunning 2D floor plans through innovative implementation. It led back-end CRUD operations, API connections and front-end.
             The elite blue print implemented the backend logic (algorithm), responsible for the innovative generation of 2D floor plans."
             techStack={["React", "Tailwind CSS", "MongoDB"]}

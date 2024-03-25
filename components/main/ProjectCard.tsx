@@ -18,14 +18,14 @@ const ProjectCard = ({
 }: Props) => {
   return (
     <button
-      className="text-left relative z-50 project-primary overflow-hidden rounded-lg shadow-lg border border-[#333333]"
+      className="flex flex-col text-justify max-w-[600px] md:min-h-[75vh] relative z-50 project-primary overflow-hidden rounded-lg shadow-lg border border-[#333333]"
     >
       <Image
         src={src}
         alt={title}
-        width={1000}
-        height={1000}
-        className="md:max-h-[240px] w-full"
+        width={1200}
+        height={1200}
+        className="md:max-h-[240px] md:min-h-[240px] w-full"
       />
 
       <div className="relative p-4">
@@ -37,7 +37,7 @@ const ProjectCard = ({
             {techStack.map((tech, index) => (
               <div key={index}>
                 <span className="block md:hidden text-gray-400">{tech}</span>
-                <span className="hidden md:block text-gray-400">{tech} |</span>
+                <span className="hidden md:block text-gray-400">{tech}</span>
               </div>
             ))}
           </div>
