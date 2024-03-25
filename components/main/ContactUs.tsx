@@ -53,7 +53,7 @@ const ContactUs = () => {
       <div className="flex flex-col items-center w-full align-middle justify-center">
         <div className="text-lg text-gray-400 w-full px-10 md:px-0 md:w-[650px]">
           I&apos;m currently open to work, if you have any opportunities or just
-          want to say hi, feel free to reach out to me at
+          want to say hi, feel free to reach out to me at{" "}
           <a
             href="mailto:loshan20011@gmail.com"
             className="text-transparent z-50 font-bold relative cursor-pointer bg-clip-text text-white"
@@ -122,7 +122,7 @@ const ContactUs = () => {
             )}
             <button
               type="submit"
-              className="py-2 px-5 button-primary text-white cursor-pointer rounded-lg md:max-w-[200px]"
+              className="py-2 px-10 button-primary text-white cursor-pointer rounded-lg md:max-w-[200px]"
             >
               Submit
             </button>
