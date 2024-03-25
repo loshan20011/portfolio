@@ -28,8 +28,9 @@ const page = () => {
             FoodFlow
           </h1>
           <p className="text-justify mb-8 md:text-lg md:text-white text-base text-gray-400 mr-4 md:text-left">
-            In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface.
-          </p>
+          In this project, I developed the website responsiveness for optimal user experience on diverse devices.
+            The foodflow led back-end development efforts for the web application.
+            in this group project I played a key role in developing front of the application.          </p>
         </div>
 
         {/* Right side */}

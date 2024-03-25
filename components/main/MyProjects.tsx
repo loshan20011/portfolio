@@ -26,7 +26,7 @@ const MyProjects = () => {
             techStack={["React", "Tailwind CSS", "MongoDB"]}
           />
         </Link>
-        <Link href="./projects/SmartEdu">
+        <Link href="./projects/Foodflow">
           <ProjectCard
             src="/foodflow.png"
             title="The FoodFlow"
@@ -36,7 +36,7 @@ const MyProjects = () => {
             techStack={["HTML", "Node.js", "MongoDB"]}
           />
         </Link>
-        <Link href="./projects/AmazonClone">
+        <Link href="./projects/SportsNext">
           <ProjectCard
             src="/sportsnext.png"
             title="Sports Next"
@@ -48,11 +48,11 @@ const MyProjects = () => {
 
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 mb-10">
         {/* <Link href=""> */}
-        <Link href="./projects/Thrive360">
+        <Link href="./projects/BeeHoney">
           <ProjectCard
             src="/beehoney.png"
             title="BeeHoney"
-            description="In this project, I have crafted a conceptualized, designed, and developed a responsive website for the business.."
+            description="In this project, I have crafted a conceptualized, designed, and developed a responsive website for the business."
             techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
           />
         </Link>
@@ -85,7 +85,7 @@ const MyProjects = () => {
             techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
           />
         </Link>
-        <Link href="./projects/SmartEdu">
+        <Link href="./projects/HMInterior">
           <ProjectCard
             src="/hminterior.png"
             title="HM Interior"
@@ -93,7 +93,7 @@ const MyProjects = () => {
             techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
           />
         </Link>
-        <Link href="./projects/AmazonClone">
+        <Link href="./projects/ShoppingCenter">
           <ProjectCard
             src="/amazonclone.png"
             title="Shopping Center"

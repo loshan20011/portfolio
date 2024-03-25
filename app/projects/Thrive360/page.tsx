@@ -14,18 +14,18 @@ const page = () => {
         <div className="flex flex-col items-start">
           <div className="mt-20 md:mt-24 mb-40 md:mb-0 w-[340px] md:w-[400px] md:h-[200px] h-0 relative">
             <Image
-              src= "/foodflow.png"
-              alt= "FoodFlow"
+              src= "/thrive360.png"
+              alt= "Thrive 360"
               width={800}
               height={200}
               className="object-cover md:[500px] rounded-lg shadow-lg border border-[#333333]"
               onClick={() => {
-                window.open("https://thefoodflow.live", "_blank");
+                window.open("https://thethrive360.net/", "_blank");
               }}
             />
           </div>
           <h1 className="text-white md:text-left mt-16 md:mt-8 mb-4 text-3xl font-bold">
-            FoodFlow
+            Thrive360
           </h1>
           <p className="text-justify mb-8 md:text-lg md:text-white text-base text-gray-400 mr-4 md:text-left">
             In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface.
@@ -57,7 +57,7 @@ const page = () => {
             <div className="py-2 px-5 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
               <button
                 onClick={ () => {
-                  window.open("https://thefoodflow.live", "_blank");
+                  window.open("https://thethrive360.net/", "_blank");
                 } }
               >
                 Visit Site
@@ -67,7 +67,7 @@ const page = () => {
             <div className="py-2 px-5 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
               <button
                 onClick={ () => {
-                  window.open("https://thefoodflow.live", "_blank")
+                  window.open("https://thethrive360.net/e", "_blank")
                 } }
               >
                 Visit GitHub
