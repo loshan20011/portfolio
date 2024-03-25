@@ -14,9 +14,38 @@ const MyProjects = () => {
         My Projects
       </h1>
 
+      
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 mb-10">
         {/* <Link href=""> */}
-        <Link href="./projects/Foodflow">
+        <Link href="./projects/EliteBluPrint">
+          <ProjectCard
+            src="/elitebluprint.png"
+            title="Thrive360"
+            description="In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface."
+            techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
+          />
+        </Link>
+        <Link href="./projects/SmartEdu">
+          <ProjectCard
+            src="/smartedu.png"
+            title="SmartEdu"
+            description="In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface."
+            techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
+          />
+        </Link>
+        <Link href="./projects/AmazonClone">
+          <ProjectCard
+            src="/amazonclone.png"
+            title="Amazon Clone"
+            description="In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface."
+            techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
+          />
+        </Link>
+      </div>
+
+      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 mb-10">
+        {/* <Link href=""> */}
+        <Link href="./projects/Thrive360">
           <ProjectCard
             src="/thrive360.png"
             title="Thrive360"
@@ -24,39 +53,50 @@ const MyProjects = () => {
             techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
           />
         </Link>
-        <ProjectCard
-          src="/smartedu.png"
-          title="SmartEdu"
-          description="In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface."
-          techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
-        />
-        <ProjectCard
-          src="/amazonclone.png"
-          title="Amazon Clone"
-          description="In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface."
-          techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
-        />
+        <Link href="./projects/SmartEdu">
+          <ProjectCard
+            src="/smartedu.png"
+            title="SmartEdu"
+            description="In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface."
+            techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
+          />
+        </Link>
+        <Link href="./projects/AmazonClone">
+          <ProjectCard
+            src="/amazonclone.png"
+            title="Amazon Clone"
+            description="In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface."
+            techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
+          />
+        </Link>
       </div>
 
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 mb-10">
-        <ProjectCard
-          src="/foodflow.png"
-          title="FoodFlow"
-          description="In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface."
-          techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
-        />
-        <ProjectCard
-          src="/sportsnext.png"
-          title="SportNext"
-          description="In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface."
-          techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
-        />
-        <ProjectCard
-          src="/amazonclone.png"
-          title="Amazon Clone"
-          description="In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface."
-          techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
-        />
+        {/* <Link href=""> */}
+        <Link href="./projects/Thrive360">
+          <ProjectCard
+            src="/thrive360.png"
+            title="Thrive360"
+            description="In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface."
+            techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
+          />
+        </Link>
+        <Link href="./projects/SmartEdu">
+          <ProjectCard
+            src="/smartedu.png"
+            title="SmartEdu"
+            description="In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface."
+            techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
+          />
+        </Link>
+        <Link href="./projects/AmazonClone">
+          <ProjectCard
+            src="/amazonclone.png"
+            title="Amazon Clone"
+            description="In this project, I have crafted a fully functional Amazon Clone using the popular React library and integrated secure authentication through Firebase. This e-commerce application mirrors the design and functionality of Amazon, allowing users to browse products, add them to the cart, and proceed with a seamless and responsive user interface."
+            techStack={["React", "Next.js", "Tailwind CSS", "Firebase"]}
+          />
+        </Link>
       </div>
     </section>
   );
